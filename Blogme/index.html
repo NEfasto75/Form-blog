@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Chef</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 4em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navi">
+                <li><a href="#">Fish</a></li>
+                <li><a href="#">Meat</a></li>
+                <li><a href="#">Vegan</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+      <h1>Master Chef</h1>
+    </header>
+    <article class="article">
+        <h2 class="formi">Share your Recipe</h2>
+        <form class="myform" name="contact" method="POST" data-netlify="true">
+            <input type="text" name="name" placeholder="Your Name" size="50"><br><br>
+            <input type="email" name="email" placeholder="example@my.com" size="50"><br><br>
+            <input type="tel" name="tel" placeholder="tel. 00 12345678" size="20"><br><br>
+            <input type="text" name="age" placeholder="age" size="1"> <input type="date" name="date of birth" placeholder="date of birth" size="50"><br>
+            <p class="textform">Please select your gender:</p>
+        <div class="myform1">
+            <input type="radio"  id="Male" name="Gender"  value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label><br>
+        </div>
+            <p class="textform">Favorite cuisine:</p>
+        <div class="myform1">
+            <input type="checkbox" id="French" name="cuisine" value="French">
+            <label for="French">French</label><br>
+            <input type="checkbox" id="Italian" name="cuisine" value="Italian">
+            <label for="Italian">Italian</label><br>
+            <input type="checkbox" id="Spanish" name="cuisine" value="Spanish">
+            <label for="Spanish">Spanish</label><br>
+            <input type="checkbox" id="Arabic" name="cuisine" value="Arabic">
+            <label for="Arabic">Arabic</label><br><br>
+        </div>
+            <p class="textform">Favorite apron color:</p>
+            <input class="col" type="color" name="aproncolor" value="#ff0000"><br>
+
+            <p class="textform">Tell us about your recipe:</p>
+        <div class="webfile">
+            <label for="files">Upload files:</label>
+            <input type="file" id="files" name="files" multiple><br><br>
+
+            <label for="website">Select a website:</label>
+            <input type="url" id="website" placeholder="http//:mywebsite@example.com" name="website" size="32"><br><br>
+        </div>
+            <textarea name="message" rows="8" cols="50" placeholder="Biography"></textarea><br>
+            <input class="button" type="submit" value="Submit"/> <input class="button" type="reset" value="Reset">
+        </form>
+    </article>
+     <br><br><br>
+     <footer>
+        © Luca Frattari, Inc. All rights reserved.
+     </footer>
+</body>
+</html>
